@@ -4,3 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* utility */
+
+.container{
+    width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+.card{
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+}
+.box{
+    display: inline-block;
+    color: white;
+    padding: 6px;
+}
+.c_red{
+    color: red;
+}
+.img_hidden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.card:hover .img_hidden{
+    visibility: visible;
+}
+.bg_white{
+    background-color: white;
+    
+}
+
+
+/* specific classes */
+.sales{    
+    background-color: red;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+}
+.sostenibility{
+    background-color: green;
+    position: absolute;
+    bottom: 8%;
+    left: 53px;
+}
+.heart{
+    padding: 8px 18px;
+    background-color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+.prezzopieno{
+    text-decoration: line-through;
+    color: black;
+}
