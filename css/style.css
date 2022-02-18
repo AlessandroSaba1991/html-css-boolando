@@ -8,9 +8,12 @@
 
 /* utility */
 
-img{
+.img_container{
     width: 427px;
     height: 616px;
+}
+img{
+    max-width: 100%;
 }
 
 .container{
